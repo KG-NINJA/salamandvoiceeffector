@@ -73,6 +73,8 @@ This project is for educational and creative purposes.
 The original VLM-5030 chip used external speech ROMs; this repo does not emulate ROM data, only approximates the “sound character”.
 
 If you want deeper accuracy, check MAME’s vlm5030.c source or FPGA Arcade documentation.
+If pip install is restricted (e.g. behind a proxy), you can still test the `vlmish_ffmpeg.py` script since it only depends on an external FFmpeg binary.
+
 
 License
 Choose a license that matches your intent (e.g., MIT if you want to allow broad use).
